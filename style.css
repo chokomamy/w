@@ -27,7 +27,7 @@ nav { display: flex; justify-content: space-between; align-items: center; }
 
 .hero { 
     height: 80vh; 
-    /* O linear-gradient serve para escurecer a foto e o texto branco aparecer melhor */
+    /* Adiciona a imagem via CSS */
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('hero-bg.jpg') center/cover no-repeat;
     display: flex; 
     align-items: center; 
