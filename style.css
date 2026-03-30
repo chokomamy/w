@@ -118,3 +118,58 @@ footer { padding: 40px; background: #fff; text-align: center; border-top: 1px so
     /* Aplica a animação na seção inteira (imagem + texto) */
     animation: heroFadeIn 1.5s ease-out forwards;
 }
+.container-pagamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.card-pagamento {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.card-pagamento h1 {
+    font-family: 'Playfair Display';
+    color: var(--rosa-principal);
+    margin-bottom: 30px;
+}
+
+.lista-pagamentos {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.lista-pagamentos li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #eee;
+    font-size: 1.1rem;
+}
+
+.lista-pagamentos li span {
+    color: var(--rosa-principal);
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.info-extra {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-box {
+    background: #7d5233; /* Marrom da imagem que você mandou */
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
