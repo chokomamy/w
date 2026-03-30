@@ -93,3 +93,28 @@ footer { padding: 40px; background: #fff; text-align: center; border-top: 1px so
     .item-cardapio { flex-direction: column; text-align: center; }
     .item-cardapio img { width: 100%; height: 200px; }
 }
+/* Animação personalizada para o Hero */
+@keyframes heroFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero { 
+    height: 80vh; 
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('hero-bg.jpg') center/cover no-repeat;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    color: white;
+    width: 100%;
+    
+    /* Aplica a animação na seção inteira (imagem + texto) */
+    animation: heroFadeIn 1.5s ease-out forwards;
+}
