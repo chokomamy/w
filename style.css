@@ -26,10 +26,28 @@ nav { display: flex; justify-content: space-between; align-items: center; }
 }
 
 .hero { 
-    height: 70vh; 
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('foto-bolo.jpg') center/cover;
-    display: flex; align-items: center; justify-content: center; text-align: center; color: white;
+    height: 80vh; 
+    /* O linear-gradient serve para escurecer a foto e o texto branco aparecer melhor */
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('hero-bg.jpg') center/cover no-repeat;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    color: white;
+    width: 100%;
 }
+
+.hero-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
 
 .hero h1 { font-family: 'Playfair Display', serif; font-size: 3.5rem; margin-bottom: 10px; }
 
