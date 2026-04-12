@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página não encontrada | Chokomamy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        .error-container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            background-color: var(--rosa-claro);
+        }
+        .error-container h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 6rem;
+            color: var(--rosa-principal);
+            margin-bottom: 10px;
+        }
+        .error-container p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .btn-back {
+            background-color: var(--rosa-principal);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        .btn-back:hover {
+            background-color: #b38282;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1>404</h1>
+        <p>Ops! Parece que esse doce não está no nosso cardápio.</p>
+        <a href="index.html" class="btn-back">Voltar para a Página Inicial</a>
+    </div>
+</body>
+</html>
